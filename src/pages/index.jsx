@@ -22,6 +22,9 @@ function Home() {
             <p className="text-lg text-gray-700 mb-8">
               This year, we're taking Hour of Code to new heights by offering coding opportunities that encompass both artificial intelligence (AI) and non-AI components.
             </p>
+            <p className="text-lg text-gray-700 mb-8">
+              Join us on December 7th, 2023 for an hour of coding and fun!
+            </p>
             <button
               onClick={() => window.location.href = '/register'}
               className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">Register now</button>
