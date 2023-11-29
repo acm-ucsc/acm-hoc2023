@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
+import Image from 'next/image'; // Import the Image component from next/image
 import Navbar from './components/Navbar';
 
 function Home() {
@@ -25,13 +26,16 @@ function Home() {
         <Navbar />
         <main className="text-center px-4 sm:px-8">
           <section>
-            <img
+            {/* Replace <img> with <Image> */}
+            <Image
               src="/hoc.png" // Assuming the image is in the public folder
               alt="Hour of Code Event"
-              className="w-full sm:w-[250px] rounded-lg my-10 mx-auto"
+              width={250} // Adjust width as needed
+              height={250} // Adjust height as needed
+              className="rounded-lg my-10 mx-auto"
             />
             <p className="text-lg text-gray-700 mb-8">
-              This year, we're taking Hour of Code to new heights by offering coding opportunities that encompass both artificial intelligence (AI) and non-AI components.
+              This year, we are taking Hour of Code to new heights by offering coding opportunities that encompass both artificial intelligence AI and non-AI components.
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Join us on December 7th, 2023, for an hour of coding and fun!

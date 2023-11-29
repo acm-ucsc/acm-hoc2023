@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import NavbarOne from './components/navbar1';
+import Image from 'next/image'; // Import the Image component from next/image
 
 function Register() {
     const [pageLoaded, setPageLoaded] = useState(false);
@@ -33,12 +34,13 @@ function Register() {
                         Register for the event by filling out the form below.
                     </p>
 
-                    <p className='text-center mb-10 text-slate-400'>(Takes few seconds to load.)</p>
+                    <p className='text-center mb-10 text-slate-400'>Takes a few seconds to load.</p>
 
-
+                    {/* Replace <img> with <Image> */}
                     <div className="tf-live-embed mb-10 mx-4 md:mx-28">
+                        
                         <div data-tf-live="01HFYHP17PJQC6AYQ1YBDPDB25"></div>
-                        <script src="//embed.typeform.com/next/embed.js"></script>
+                        <script async src="//embed.typeform.com/next/embed.js"></script>
                     </div>
                 </div>
             </div>
