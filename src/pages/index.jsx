@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image'; // Import the Image component from next/image
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 
 function Home() {
   const [pageLoaded, setPageLoaded] = useState(false);
