@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
-import Image from 'next/image'; // Import the Image component from next/image
+import Image from 'next/image';
 import Navbar from './components/navbar';
 
 function Home() {
   const [pageLoaded, setPageLoaded] = useState(false);
 
   useEffect(() => {
-    // Set the pageLoaded state to true after a short delay
+
     const timeout = setTimeout(() => {
       setPageLoaded(true);
-    }, 500); // You can adjust the delay as needed
+    }, 500);
 
-    // Clear the timeout to avoid setting the state after unmounting
     return () => clearTimeout(timeout);
   }, []);
 
@@ -26,12 +25,11 @@ function Home() {
         <Navbar />
         <main className="text-center px-4 sm:px-8">
           <section>
-            {/* Replace <img> with <Image> */}
             <Image
-              src="/hoc.png" // Assuming the image is in the public folder
+              src="/hoc.png" 
               alt="Hour of Code Event"
-              width={250} // Adjust width as needed
-              height={250} // Adjust height as needed
+              width={250} 
+              height={250}
               className="rounded-lg my-10 mx-auto"
             />
             <p className="text-lg text-gray-700 mb-8">
@@ -42,7 +40,7 @@ function Home() {
             </p>
             <button
               onClick={() => window.location.href = '/register'}
-              className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">Register now</button>
+              className=" custom-color hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">Register now</button>
           </section>
         </main>
       </div>
