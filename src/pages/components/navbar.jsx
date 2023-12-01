@@ -81,8 +81,8 @@ function Navbar() {
                         </li>
                         <li>
                             <Link href="https://ucsc.acm.org/home">
-                                <div className={`block py-2 px-3 rounded md:p-0 m ${router.pathname.startsWith('https://ucsc.acm.org/') ? 'bg-teal-500 text-white' : 'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500'}`}>
-                                    ACM - UCSC
+                                <div className={`block py-2 px-3 rounded md:p-0 m text-gray-900 hover:bg-gray-100 md:hover:bg-transparent `}>
+                                    <span className='text-teal-500'>ACM</span> - UC<span className=' text-red-600'>SC</span> 
                                 </div>
                             </Link>
                         </li>
