@@ -22,7 +22,7 @@ function Footer() {
                         <div className="hover:text-teal-500 cursor-pointer text-center">Register</div>
                     </Link>
                     <Link href="https://www.ko-de.org/">
-                        <p className="text-slate-400 hover:text-teal-500 cursor-pointer text-center">&copy; 2023 kode</p>
+                        <p className=" text-indigo-300 hover:text-indigo-500 cursor-pointer text-center">&copy; 2023 kode</p>
                     </Link>
                 </div>
 
