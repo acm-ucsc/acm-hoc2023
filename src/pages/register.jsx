@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import NavbarOne from './components/navbar1';
+import Footer from './components/footer';
 
 function Register() {
     const [pageLoaded, setPageLoaded] = useState(false);
@@ -16,7 +17,7 @@ function Register() {
         <>
             <div className={`container opacity-0 transition-opacity ${pageLoaded ? 'opacity-100 duration-1000 ease-in-out' : ''}`}>
                 <Head>
-                    <title>Hour of Code | UCSC</title>
+                    <title>Registration | HOC</title>
                     <link rel="icon" href="/hoc.png" />
                 </Head>
 
@@ -40,6 +41,7 @@ function Register() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

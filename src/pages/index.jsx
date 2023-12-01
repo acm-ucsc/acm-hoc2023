@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 function Home() {
   const [pageLoaded, setPageLoaded] = useState(false);
@@ -44,6 +45,7 @@ function Home() {
           </section>
         </main>
       </div>
+      <Footer />
     </>
   );
 }
