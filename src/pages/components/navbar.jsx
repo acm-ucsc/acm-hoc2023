@@ -64,6 +64,20 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
+                            <Link href="/event">
+                                <div className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500  rounded md:bg-transparent  md:p-0 m" aria-current="page">
+                                    Event
+                                </div>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/register">
+                                <div className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500  rounded md:bg-transparent  md:p-0 m" aria-current="page">
+                                    Register
+                                </div>
+                            </Link>
+                        </li>
+                        <li>
                             <Link href="https://ucsc.acm.org/home">
                                 <div className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 ">
                                     ACM - UCSC
