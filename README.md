@@ -1,3 +1,9 @@
+## Hour of Code - ACM UCSC Webpage
+
+The Hour of Code is a free introduction to computer science through fun activities and videos for learners of all skill levels. This year's celebration of both coding and AI is supported by over 400 partners, 20,000 educators, and 58,000 volunteers.
+
+@Kavirubc @kodecosmo
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
