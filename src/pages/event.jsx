@@ -24,7 +24,7 @@ function Event() {
                 <div></div>
                 <NavbarTwo />
 
-                <section className="mx-auto my-[100px] p-8 bg-white rounded-md shadow-lg">
+                <section className="mx-auto my-[100px] px-8 pb-8 bg-white rounded-md shadow-lg">
                     <Image
                         src="/hoc.png"
                         alt="Hour of Code Event"
@@ -63,28 +63,28 @@ function Event() {
                         <div className="mb-4">
                             <details className="border-b border-gray-300 pb-4">
                                 <summary className="cursor-pointer font-semibold mb-2 transition-all duration-300 ease-in-out">What is the event about?</summary>
-                                <p className="text-gray-700 text-lg transition-all duration-300 ease-in-out">This event is a Python basics session scheduled for December 7th, 2023, at the University of Colombo School of Computing. It aims to unleash coding potential, catering to individuals of all skill levels, from beginners to professionals.</p>
+                                <p className="text-gray-700 text-base transition-all duration-300 ease-in-out">This event is a Python basics session scheduled for December 7th, 2023, at the University of Colombo School of Computing. It aims to unleash coding potential, catering to individuals of all skill levels, from beginners to professionals.</p>
                             </details>
                         </div>
 
                         <div className="mb-4">
                             <details className="border-b border-gray-300 pb-4">
                                 <summary className="cursor-pointer font-semibold mb-2 transition-all duration-300 ease-in-out">Who is organizing the event?</summary>
-                                <p className="text-gray-700 text-lg transition-all duration-300 ease-in-out">The event is organized by the ACM Student Chapter in celebration of Computer Science Education Week, aligning with the global initiative, Hour of Code.</p>
+                                <p className="text-gray-700 text-base transition-all duration-300 ease-in-out">The event is organized by the ACM Student Chapter in celebration of Computer Science Education Week, aligning with the global initiative, Hour of Code.</p>
                             </details>
                         </div>
 
                         <div className="mb-4">
                             <details className="border-b border-gray-300 pb-4">
                                 <summary className="cursor-pointer font-semibold mb-2 transition-all duration-300 ease-in-out">What is the theme of the event?</summary>
-                                <p className="text-gray-700 text-lg transition-all duration-300 ease-in-out">The event celebrates the theme of Creativity with AI, showcasing the exciting possibilities that coding and artificial intelligence bring to the table.</p>
+                                <p className="text-gray-700 text-base transition-all duration-300 ease-in-out">The event celebrates the theme of Creativity with AI, showcasing the exciting possibilities that coding and artificial intelligence bring to the table.</p>
                             </details>
                         </div>
 
                         <div className="mb-4">
                             <details className="border-b border-gray-300 pb-4">
                                 <summary className="cursor-pointer font-semibold mb-2 transition-all duration-1300 ease-in-out">Is this related to the global Hour of Code movement?</summary>
-                                <p className="text-gray-700 text-lg transition-all duration-300 ease-in-out">Yes, this event is part of the Hour of Code initiative, a global movement reaching 180+ countries. In 2023 alone, 16,524 events have been registered worldwide.</p>
+                                <p className="text-gray-700 text-base transition-all duration-300 ease-in-out">Yes, this event is part of the Hour of Code initiative, a global movement reaching 180+ countries. In 2023 alone, 16,524 events have been registered worldwide.</p>
                             </details>
                         </div>
                     </div>
