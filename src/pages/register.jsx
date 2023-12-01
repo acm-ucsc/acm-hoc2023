@@ -33,15 +33,19 @@ function Register() {
 
                     <p className='text-center mb-10 text-slate-400'>Takes a few seconds to load.</p>
 
+                    <div className='mx-4 md:mx-28'>
+                        <div className="tf-live-embed mb-10 mx-4 md:mx-28">
 
-                    <div className="tf-live-embed mb-10 mx-4 md:mx-28">
-
-                        <div data-tf-live="01HFYHP17PJQC6AYQ1YBDPDB25"></div>
-                        <script async src="//embed.typeform.com/next/embed.js"></script>
+                            <div data-tf-live="01HFYHP17PJQC6AYQ1YBDPDB25"></div>
+                            <script async src="//embed.typeform.com/next/embed.js"></script>
+                        </div>
                     </div>
+                    
+                    
                 </div>
+                <Footer />
             </div>
-            <Footer />
+            
         </>
     );
 }

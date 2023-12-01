@@ -1,14 +1,19 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import Footer from './components/footer'
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Footer from './components/footer';
 
-export default function Document() {
-  return (
-    <Html lang="en">
-      <Head />
-      <body className='container mx-auto'>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
+
+class MyDocument extends Document {
+  render() {
+    return (
+      <Html lang="en">
+        <Head />
+        <body className="container mx-auto">
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }
+
+export default MyDocument;
