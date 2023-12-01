@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
-import NavbarTwo from './components/navbar2';
 import Footer from './components/footer';
 import Image from 'next/image';
+import Navbar from './components/navbar';
 
 function Event() {
     const [pageLoaded, setPageLoaded] = useState(false);
@@ -23,7 +23,7 @@ function Event() {
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </Head>
                 <div></div>
-                <NavbarTwo />
+                <Navbar />
 
                 <section className="mx-auto my-[100px] px-8 pb-8 bg-white rounded-md shadow-lg">
                     <Image

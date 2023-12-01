@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
-import NavbarOne from './components/navbar1';
+
 import Footer from './components/footer';
 import Link from 'next/link';
+import Navbar from './components/navbar';
 
 function Register() {
     const [pageLoaded, setPageLoaded] = useState(false);
@@ -35,7 +36,7 @@ function Register() {
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </Head>
 
-                <NavbarOne />
+                <Navbar />
 
                 <div className='mt-[120px]'>
                     <h1 className="text-4xl font-bold text-center mt-10 mb-5">
