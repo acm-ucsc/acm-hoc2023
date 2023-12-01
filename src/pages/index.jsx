@@ -21,6 +21,7 @@ function Home() {
       <Head>
         <title>Hour of Code | UCSC</title>
         <link rel="icon" href="/hoc.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
       <div className={`flex flex-col h-screen justify-center items-center opacity-0 transition-opacity ${pageLoaded ? 'opacity-100 duration-1000 ease-in-out' : ''}`}>
         <Navbar />

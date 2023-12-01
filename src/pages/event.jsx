@@ -20,6 +20,7 @@ function Event() {
                 <Head>
                     <title>Unleash Your Coding Potential | Dec 7th, 2023 | UCSC</title>
                     <link rel="icon" href="/hoc.png" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </Head>
                 <div></div>
                 <NavbarTwo />
