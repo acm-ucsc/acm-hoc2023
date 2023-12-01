@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import NavbarTwo from './components/navbar2';
 import Footer from './components/footer';
+import Image from 'next/image';
 
 function Event() {
     const [pageLoaded, setPageLoaded] = useState(false);
@@ -20,11 +21,18 @@ function Event() {
                     <title>Unleash Your Coding Potential | Dec 7th, 2023 | UCSC</title>
                     <link rel="icon" href="/hoc.png" />
                 </Head>
-
+                <div></div>
                 <NavbarTwo />
 
                 <section className="mx-auto my-[100px] p-8 bg-white rounded-md shadow-lg">
-                    <h2 className="text-4xl font-bold mb-8 text-center">Event Details</h2>
+                    <Image
+                        src="/hoc.png"
+                        alt="Hour of Code Event"
+                        width={100}
+                        height={100}
+                        className="rounded-lg my-10 mx-auto"
+                    />
+
 
                     <div className="mb-12">
                         <p className="text-gray-700 text-lg text-center">
@@ -69,7 +77,7 @@ function Event() {
                         <div className="mb-4">
                             <details className="border-b border-gray-300 pb-4">
                                 <summary className="cursor-pointer font-semibold mb-2 transition-all duration-300 ease-in-out">What is the theme of the event?</summary>
-                                <p className="text-gray-700 text-lg transition-all duration-300 ease-in-out">The event celebrates the theme "Creativity with AI," showcasing the exciting possibilities that coding and artificial intelligence bring to the table.</p>
+                                <p className="text-gray-700 text-lg transition-all duration-300 ease-in-out">The event celebrates the theme of Creativity with AI, showcasing the exciting possibilities that coding and artificial intelligence bring to the table.</p>
                             </details>
                         </div>
 

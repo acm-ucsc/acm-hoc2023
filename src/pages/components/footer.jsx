@@ -10,6 +10,7 @@ function Footer() {
                     <p className="text-sm">Unlocking Coding Potential</p>
                 </div>
 
+
                 <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                     <Link href="/">
                         <div className="hover:text-teal-500 cursor-pointer md:text-center">Home</div>
@@ -22,12 +23,13 @@ function Footer() {
                     </Link>
                 </div>
 
-                <div className="self-end">
-                    <Link href="https://www.ko-de.org/">
-                        <p className="text-sm text-slate-400">&copy; 2023 kode</p>
-                    </Link>
-                </div>
+
+                <Link href="https://www.ko-de.org/">
+                    <p className="text-sm text-slate-400 hover:text-teal-500 cursor-pointer md:text-center">&copy; 2023 kode</p>
+                </Link>
+
             </div>
+
         </footer>
     );
 }
