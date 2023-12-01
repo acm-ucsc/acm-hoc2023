@@ -13,20 +13,21 @@ function Footer() {
 
                 <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                     <Link href="/">
-                        <div className="hover:text-teal-500 cursor-pointer md:text-center">Home</div>
+                        <div className="hover:text-teal-500 cursor-pointer text-center">Home</div>
                     </Link>
                     <Link href="/event">
-                        <div className="hover:text-teal-500 cursor-pointer md:text-center">Event</div>
+                        <div className="hover:text-teal-500 cursor-pointer text-center">Event</div>
                     </Link>
                     <Link href="/register">
-                        <div className="hover:text-teal-500 cursor-pointer md:text-center">Register</div>
+                        <div className="hover:text-teal-500 cursor-pointer text-center">Register</div>
+                    </Link>
+                    <Link href="https://www.ko-de.org/">
+                        <p className="text-slate-400 hover:text-teal-500 cursor-pointer text-center">&copy; 2023 kode</p>
                     </Link>
                 </div>
 
 
-                <Link href="https://www.ko-de.org/">
-                    <p className="text-sm text-slate-400 hover:text-teal-500 cursor-pointer md:text-center">&copy; 2023 kode</p>
-                </Link>
+                
 
             </div>
 
