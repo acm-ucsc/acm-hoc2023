@@ -50,7 +50,7 @@ function Event() {
                                 <strong className="font-bold">Time:</strong> 3:00 PM - 5:00 PM
                             </span>
                             <span className="block">
-                                <strong className="font-bold">Location:</strong> Hall xxxx, UCSC
+                                <strong className="font-bold">Location:</strong> Hall S 104, UCSC
                             </span>
                             <span className="block">
                                 <strong className="font-bold">Requirements:</strong> Laptop and the invitation email.
