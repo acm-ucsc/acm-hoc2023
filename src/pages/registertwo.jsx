@@ -50,6 +50,11 @@ function Register() {
                             Loading…
                         </iframe>
                     </div>
+                    <div className='flex flex-col items-center'>
+                        <button
+                            onClick={() => window.location.href = '/event'}
+                            className=" custom-color hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">See event details</button>
+                    </div>
 
                 </div>
 
