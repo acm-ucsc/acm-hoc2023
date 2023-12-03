@@ -43,7 +43,7 @@ function Register() {
                         Registration
                     </h1>
                     <p className="text-center text-lg">
-                        Register for the event by filling out the form below.
+                        Register for the event by filling out the form below. UCSC only
                     </p>
 
                     <div className='mx-4 md:mx-28'>
