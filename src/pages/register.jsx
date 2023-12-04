@@ -49,7 +49,7 @@ function Register() {
                     <div className='mx-4 md:mx-28'>
                         <p className='text-center mb-10 text-slate-400'>Takes a few seconds to load. If not, please <Link href="/registertwo"><span className=' text-blue-700'>click here.</span> </Link></p>
                         <div className="tf-live-embed mb-10 mx-4 md:mx-28">
-                            <div data-tf-live="01HFYHP17PJQC6AYQ1YBDPDB25"></div>
+                            <div data-tf-live="01HGNE992N1879DX8S519PX8M6"></div>
                         </div>
                     </div>
                     <div className='flex flex-col items-center'>
