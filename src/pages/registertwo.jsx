@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 import Footer from './components/footer';
+import Link from 'next/link';
 import Navbar from './components/navbar';
 
 function Register() {
@@ -28,36 +29,33 @@ function Register() {
 
     return (
         <>
-            <div className={`container opacity-0 transition-opacity ${pageLoaded ? 'opacity-100 duration-1000 ease-in-out' : ''}`}>
+            <div className={` container opacity-0 transition-opacity ${pageLoaded ? 'opacity-100 duration-1000 ease-in-out' : ''}`}>
                 <Head>
                     <title>Registration | HOC</title>
                     <link rel="icon" href="/hoc.png" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </Head>
 
                 <Navbar />
 
-                <div className='mt-[120px] mx-4 md:mx-28'>
+                <div className='flex flex-col h-screen justify-center items-center'>
                     <h1 className="text-4xl font-bold text-center mt-10 mb-5">
-                        Registration
+                        Registration - Closed
                     </h1>
                     <p className="text-center text-lg">
-                        Register for the event by filling out the form below.
+                        Invitations will be sent within 2 days.
                     </p>
 
-                    <div className='mt-6'>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdl3JgJMr5YrB0xsbi7VrN3jafI1XdHT2iE5jGNU6c-JkYtJA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">
-                            Loading…
-                        </iframe>
-                    </div>
+
                     <div className='flex flex-col items-center'>
                         <button
                             onClick={() => window.location.href = '/event'}
-                            className=" custom-color hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">See event details</button>
+                            className=" custom-color hover:bg-teal-700 text-white font-bold py-2 px-4 mt-9 rounded-lg cursor-pointer">See event details</button>
                     </div>
-
                 </div>
-
+                <div>
+                    <br />
+                </div>
                 <Footer />
             </div>
         </>

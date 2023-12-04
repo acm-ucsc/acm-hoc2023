@@ -68,7 +68,7 @@ function Navbar() {
                         <li>
                             <Link href="/event">
                                 <div className={`block py-2 px-3 rounded md:p-0 m ${router.pathname === '/event' ? 'text-teal-500' : 'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500'}`}>
-                                    Event
+                                    Event details
                                 </div>
                             </Link>
                         </li>

@@ -29,7 +29,7 @@ function Register() {
 
     return (
         <>
-            <div className={`container opacity-0 transition-opacity ${pageLoaded ? 'opacity-100 duration-1000 ease-in-out' : ''}`}>
+            <div className={` container opacity-0 transition-opacity ${pageLoaded ? 'opacity-100 duration-1000 ease-in-out' : ''}`}>
                 <Head>
                     <title>Registration | HOC</title>
                     <link rel="icon" href="/hoc.png" />
@@ -38,24 +38,19 @@ function Register() {
 
                 <Navbar />
 
-                <div className='mt-[120px]'>
+                <div className='flex flex-col h-screen justify-center items-center'>
                     <h1 className="text-4xl font-bold text-center mt-10 mb-5">
-                        Registration
+                        Registration - Closed
                     </h1>
                     <p className="text-center text-lg">
-                        Register for the event by filling out the form below. UCSC only
+                        Invitations will be sent within 2 days.
                     </p>
 
-                    <div className='mx-4 md:mx-28'>
-                        <p className='text-center mb-10 text-slate-400'>Takes a few seconds to load. If not, please <Link href="/registertwo"><span className=' text-blue-700'>click here.</span> </Link></p>
-                        <div className="tf-live-embed mb-10 mx-4 md:mx-28">
-                            <div data-tf-live="01HGNE992N1879DX8S519PX8M6"></div>
-                        </div>
-                    </div>
+                   
                     <div className='flex flex-col items-center'>
                         <button
                             onClick={() => window.location.href = '/event'}
-                            className=" custom-color hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">See event details</button>
+                            className=" custom-color hover:bg-teal-700 text-white font-bold py-2 px-4 mt-9 rounded-lg cursor-pointer">See event details</button>
                     </div>
                 </div>
                 <div>
