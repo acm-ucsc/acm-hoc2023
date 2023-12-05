@@ -61,24 +61,24 @@ function Home() {
               Join us on December 7th, 2023, for an hour of coding and fun!
             </p>
             <div className="text-base sm:text-lg text-gray-700 mb-8">
-              <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-2">
+              <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-2 sm:mt-4">
                 <div className="countdown-item">
-                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105">
+                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105 mb-5">
                     <span className="font-bold">{countdown.days}</span> days
                   </div>
                 </div>
                 <div className="countdown-item">
-                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105">
+                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105 mb-5">
                     <span className="font-bold">{countdown.hours}</span> hours
                   </div>
                 </div>
                 <div className="countdown-item">
-                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105">
+                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105 mb-5">
                     <span className="font-bold">{countdown.minutes}</span> minutes
                   </div>
                 </div>
                 <div className="countdown-item">
-                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105">
+                  <div className=" bg-slate-200 border border-black text-black px-4 py-2 rounded-lg shadow-md transition duration-500 ease-in-out transform hover:scale-105 mb-5">
                     <span className="font-bold">{countdown.seconds}</span> seconds
                   </div>
                 </div>
