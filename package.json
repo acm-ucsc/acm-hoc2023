@@ -3,19 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env PORT=4000 next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "cross-env PORT=4000 next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "acm-hoc": "file:",
     "framer-motion": "^10.16.7",
-    "next": "14.0.3",
+    "next": "^15.0.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
     "postcss": "^8",
